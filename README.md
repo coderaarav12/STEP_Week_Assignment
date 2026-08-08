@@ -1,47 +1,39 @@
-# STEP Week Assignments
+# STEP Week Assignments — Week 1
 
 Welcome to the **STEP (Skills Training & Enrichment Program)** weekly assignment repository.
+This branch (`week1`) contains the Week 1 assignment: **Core Java Fundamentals**.
 
-This repository stores the Java solutions and problem-sheet PDFs given during the STEP classes.
-Each week's work lives on its own branch so you can track progress week by week.
+## Week 1 — Core Java Fundamentals
 
-## Repository Layout
+Week 1 introduces core Java: **arrays, nested loops, String traversal, sum accumulation,
+and running-maximum tracking** — through five real-world style problems.
 
-| Branch | Contents |
-| ------ | -------- |
-| [`week1`](https://github.com/coderaarav12/STEP_Week_Assignment/tree/week1) | Week 1 — Core Java exercises + problem sheet PDF + sample output files |
-| `main` | This overview README |
+All files live in the [`Week 1`](Week%201/) folder.
 
-## What the STEP Classes Cover
+## Problems
 
-The STEP classes build programming fundamentals in Java, progressing from basic language
-constructs to practical, real-world style problems.
+| File | Problem | Sample Output |
+| ---- | ------- | ------------- |
+| `Week 1/Problem1_ExamHallSeatDuplicationChecker.java` | **Exam Hall Seat Duplication Checker** — flag duplicate seat numbers using arrays + nested loops (no Collections) | `Week 1/Problem1_Output.txt` |
+| `Week 1/Problem2_TypingSpeedAccuracyChecker.java` | **Typing Speed Accuracy Checker** — character-by-character match, accuracy %, first mismatch position | `Week 1/Problem2_Output.txt` |
+| `Week 1/Problem3_TrafficSignalStreakAnalyzer.java` | **Traffic Signal Streak Analyzer** — longest run of one color in a signal log | `Week 1/Problem3_Output.txt` |
+| `Week 1/Problem4_WarehouseInventoryBalancer.java` | **Warehouse Inventory Balancer** — compare section totals and find the highest-quantity item | `Week 1/Problem4_Output.txt` |
+| `Week 1/Problem5_MovieReviewWordLengthProfiler.java` | **Movie Review Word Length Profiler** — classify words as Short (1–4), Medium (5–8), Long (9+) | `Week 1/Problem5_Output.txt` |
 
-### Week 1 — Core Java Fundamentals
-Five self-contained programs that practise **arrays, nested loops, String traversal,
-regex-free parsing, sum accumulation, and running-maximum tracking**:
+## Running
 
-1. **Exam Hall Seat Duplication Checker** — scans seat numbers with arrays + nested
-   loops (no Collections) and flags any duplicated seat.
-2. **Typing Speed Test Accuracy Checker** — compares a typed passage character-by-character
-   against the original and reports accuracy % plus the first mismatch position.
-3. **Traffic Signal Streak Analyzer** — scans a day's signal log (`R`/`Y`/`G`) and reports
-   the longest continuous streak of a single color.
-4. **Warehouse Inventory Balancer** — totals two storage sections, reports "Balanced" /
-   "Not Balanced", and finds the single highest-quantity item.
-5. **Movie Review Word Length Profiler** — splits a review into words and counts them as
-   Short (1–4), Medium (5–8), or Long (9+).
-
-Each problem ships as its own `.java` file together with a `.txt` file showing its output.
-
-## Running the Solutions
-
-Each solution is a self-contained Java file with sample cases in `main()`:
+Each program runs sample cases in `main()`. The matching output is captured in the
+corresponding `ProblemX_Output.txt`.
 
 ```bash
+cd "Week 1"
 javac Problem1_ExamHallSeatDuplicationChecker.java
 java Problem1_ExamHallSeatDuplicationChecker
 ```
+
+## Problem Sheet
+
+- [`Week 1/STEP=SEM-3 Week 1_Problems_Assignment.pdf`](Week%201/STEP%3DSEM-3%20Week%201_Problems_Assignment.pdf) — the official Week 1 assignment.
 
 ## Requirements
 
