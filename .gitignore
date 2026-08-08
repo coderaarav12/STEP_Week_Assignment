@@ -1,0 +1,6 @@
+# Compiled Java bytecode
+*.class
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
